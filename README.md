@@ -2,6 +2,10 @@
 
 The Releans SDK enables developers to use Releans Services in their code. You can get started in minutes.
 
+## Create Releans Account
+
+First, [sign up for a Releans account](https://platform.releans.com/site/signup) if you don't already have one, and make a note of your API key on the dashboard API page.
+
 ## How to Build
 
 The Releans SDK code uses the Newtonsoft Json.NET NuGet Package. If the automatic NuGet package restore
