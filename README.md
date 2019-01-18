@@ -4,7 +4,7 @@ The Releans SDK enables developers to use Releans Services in their code. You ca
 
 ## How to Build
 
-The generated code uses the Newtonsoft Json.NET NuGet Package. If the automatic NuGet package restore
+The Releans SDK code uses the Newtonsoft Json.NET NuGet Package. If the automatic NuGet package restore
 is enabled, these dependencies will be installed automatically. Therefore,
 you will need internet access for build.
 
@@ -16,7 +16,7 @@ you will need internet access for build.
 
 ## How to Use
 
-The build process generates a portable class library, which can be used like a normal class library. The generated library is compatible with Windows Forms, Windows RT, Windows Phone 8,
+The build process generates a portable class library, which can be used like a normal class library. The Releans library is compatible with Windows Forms, Windows RT, Windows Phone 8,
 Silverlight 5, Xamarin iOS, Xamarin Android and Mono. More information on how to use can be found at the [MSDN Portable Class Libraries documentation](http://msdn.microsoft.com/en-us/library/vstudio/gg597391%28v=vs.100%29.aspx).
 
 The following section explains how to use the Releans library in a new console project.
@@ -56,7 +56,7 @@ Here, you can add code to initialize the client library and acquire the instance
 
 ## How to Test
 
-The generated SDK also contain one or more Tests, which are contained in the Tests project.
+The Releans SDK also contain one or more Tests, which are contained in the Tests project.
 In order to invoke these test cases, you will need *NUnit 3.0 Test Adapter Extension for Visual Studio*.
 Once the SDK is complied, the test cases should appear in the Test Explorer window.
 Here, you can click *Run All* to execute these test cases.
